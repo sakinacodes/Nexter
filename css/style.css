@@ -17,8 +17,19 @@
   grid-column: col-start 7 / full-end; }
 
 .features {
-  background-color: #f9f7f6;
-  grid-column: center-start/center-end; }
+  grid-column: center-start/center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem; }
+
+.feature__icon {
+  fill: #c69963;
+  width: 4.5rem;
+  height: 4.5rem; }
+
+.feature__text {
+  font-size: 1.7rem; }
 
 .story--pictures {
   background-color: #c69963;
